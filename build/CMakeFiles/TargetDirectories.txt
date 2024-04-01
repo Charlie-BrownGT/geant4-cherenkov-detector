@@ -1,0 +1,4 @@
+/home/guy/geant4-cherenkov-detector/build/CMakeFiles/sim.dir
+/home/guy/geant4-cherenkov-detector/build/CMakeFiles/Simulation.dir
+/home/guy/geant4-cherenkov-detector/build/CMakeFiles/edit_cache.dir
+/home/guy/geant4-cherenkov-detector/build/CMakeFiles/rebuild_cache.dir
