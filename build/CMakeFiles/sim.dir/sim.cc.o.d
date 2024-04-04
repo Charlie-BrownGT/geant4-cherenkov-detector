@@ -716,4 +716,11 @@ CMakeFiles/sim.dir/sim.cc.o: /home/guy/geant4-cherenkov-detector/sim.cc \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4MCCIndexConversionTable.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4EmStandardPhysics.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalPhysics.hh \
- /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalParameters.hh
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalParameters.hh \
+ /home/guy/geant4-cherenkov-detector/action.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VUserActionInitialization.hh \
+ /home/guy/geant4-cherenkov-detector/generator.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleGun.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VPrimaryGenerator.hh \
+ /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleTable.hh

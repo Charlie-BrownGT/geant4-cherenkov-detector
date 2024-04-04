@@ -8,12 +8,14 @@
 
 #include "construction.hh"
 #include "physics.hh"
+#include "action.hh"
 
 int main(int argc, char** argv)
 {
 	G4RunManager *runManager = new G4RunManager();
 	runManager->SetUserInitialization(new MyDetectorConstruction());
 	runManager->SetUserInitialization(new MyPhysicsList());
+	runManager->SetUserInitialization(new MyActionInitialization());
 	
 	runManager->Initialize();
 	
@@ -25,6 +27,8 @@ int main(int argc, char** argv)
 	UIManager->ApplyCommand("/vis/open OGL");
 	UIManager->ApplyCommand("/vis/drawVolume");
 	UIManager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
+	UIManager->ApplyCommand("/vis/viewer/set/autoRefresh true");
+	UIManager->ApplyCommand("/vis/scene/add/trajectories smooth");
 	
 	ui->SessionStart();
 	

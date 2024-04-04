@@ -83,10 +83,24 @@ CMakeFiles/sim.dir/sim.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/sim.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/geant4-cherenkov-detector/sim.cc -o CMakeFiles/sim.dir/sim.cc.s
 
+CMakeFiles/sim.dir/action.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/action.cc.o: ../action.cc
+CMakeFiles/sim.dir/action.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/geant4-cherenkov-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sim.dir/action.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/action.cc.o -MF CMakeFiles/sim.dir/action.cc.o.d -o CMakeFiles/sim.dir/action.cc.o -c /home/guy/geant4-cherenkov-detector/action.cc
+
+CMakeFiles/sim.dir/action.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/action.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/geant4-cherenkov-detector/action.cc > CMakeFiles/sim.dir/action.cc.i
+
+CMakeFiles/sim.dir/action.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/action.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/geant4-cherenkov-detector/action.cc -o CMakeFiles/sim.dir/action.cc.s
+
 CMakeFiles/sim.dir/construction.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/construction.cc.o: ../construction.cc
 CMakeFiles/sim.dir/construction.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/geant4-cherenkov-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sim.dir/construction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/geant4-cherenkov-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sim.dir/construction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/construction.cc.o -MF CMakeFiles/sim.dir/construction.cc.o.d -o CMakeFiles/sim.dir/construction.cc.o -c /home/guy/geant4-cherenkov-detector/construction.cc
 
 CMakeFiles/sim.dir/construction.cc.i: cmake_force
@@ -97,10 +111,24 @@ CMakeFiles/sim.dir/construction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/construction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/geant4-cherenkov-detector/construction.cc -o CMakeFiles/sim.dir/construction.cc.s
 
+CMakeFiles/sim.dir/generator.cc.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/generator.cc.o: ../generator.cc
+CMakeFiles/sim.dir/generator.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/geant4-cherenkov-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sim.dir/generator.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/generator.cc.o -MF CMakeFiles/sim.dir/generator.cc.o.d -o CMakeFiles/sim.dir/generator.cc.o -c /home/guy/geant4-cherenkov-detector/generator.cc
+
+CMakeFiles/sim.dir/generator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sim.dir/generator.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guy/geant4-cherenkov-detector/generator.cc > CMakeFiles/sim.dir/generator.cc.i
+
+CMakeFiles/sim.dir/generator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sim.dir/generator.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guy/geant4-cherenkov-detector/generator.cc -o CMakeFiles/sim.dir/generator.cc.s
+
 CMakeFiles/sim.dir/physics.cc.o: CMakeFiles/sim.dir/flags.make
 CMakeFiles/sim.dir/physics.cc.o: ../physics.cc
 CMakeFiles/sim.dir/physics.cc.o: CMakeFiles/sim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/geant4-cherenkov-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sim.dir/physics.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guy/geant4-cherenkov-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sim.dir/physics.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/physics.cc.o -MF CMakeFiles/sim.dir/physics.cc.o.d -o CMakeFiles/sim.dir/physics.cc.o -c /home/guy/geant4-cherenkov-detector/physics.cc
 
 CMakeFiles/sim.dir/physics.cc.i: cmake_force
@@ -114,14 +142,18 @@ CMakeFiles/sim.dir/physics.cc.s: cmake_force
 # Object files for target sim
 sim_OBJECTS = \
 "CMakeFiles/sim.dir/sim.cc.o" \
+"CMakeFiles/sim.dir/action.cc.o" \
 "CMakeFiles/sim.dir/construction.cc.o" \
+"CMakeFiles/sim.dir/generator.cc.o" \
 "CMakeFiles/sim.dir/physics.cc.o"
 
 # External object files for target sim
 sim_EXTERNAL_OBJECTS =
 
 sim: CMakeFiles/sim.dir/sim.cc.o
+sim: CMakeFiles/sim.dir/action.cc.o
 sim: CMakeFiles/sim.dir/construction.cc.o
+sim: CMakeFiles/sim.dir/generator.cc.o
 sim: CMakeFiles/sim.dir/physics.cc.o
 sim: CMakeFiles/sim.dir/build.make
 sim: /home/guy/software/geant4/geant4-v11.2.1-install/lib/libG4Tree.so
@@ -164,7 +196,7 @@ sim: /home/guy/software/geant4/geant4-v11.2.1-install/lib/libG4global.so
 sim: /home/guy/software/geant4/geant4-v11.2.1-install/lib/libG4clhep.so
 sim: /home/guy/software/geant4/geant4-v11.2.1-install/lib/libG4ptl.so.2.3.3
 sim: CMakeFiles/sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guy/geant4-cherenkov-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guy/geant4-cherenkov-detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
