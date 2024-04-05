@@ -22,13 +22,14 @@ int main(int argc, char** argv)
 	G4UIExecutive *ui = new G4UIExecutive(argc, argv);
 	G4VisManager *visManager = new G4VisExecutive();
 	visManager->Initialize();
-	G4UImanager *UIManager = G4UImanager::GetUIpointer();
+	G4UImanager *UImanager = G4UImanager::GetUIpointer();
 	
-	UIManager->ApplyCommand("/vis/open OGL");
-	UIManager->ApplyCommand("/vis/drawVolume");
-	UIManager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
-	UIManager->ApplyCommand("/vis/viewer/set/autoRefresh true");
-	UIManager->ApplyCommand("/vis/scene/add/trajectories smooth");
+	UImanager->ApplyCommand("/vis/open OGL");
+	UImanager->ApplyCommand("/vis/drawVolume");
+	UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
+	UImanager->ApplyCommand("/vis/viewer/set/autoRefresh true");
+	UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");
+	UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate");
 	
 	ui->SessionStart();
 	
